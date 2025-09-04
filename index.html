@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Meu Amor ❤️</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Seção de Boas-vindas -->
+        <section class="welcome-section">
+            <div class="hearts-animation">
+                <div class="heart heart1">❤️</div>
+                <div class="heart heart2">💕</div>
+                <div class="heart heart3">💖</div>
+                <div class="heart heart4">💗</div>
+                <div class="heart heart5">❤️</div>
+            </div>
+            <h1 class="main-title">Para Meu Amor</h1>
+            <p class="subtitle">Um site especial criado com todo meu carinho</p>
+            <button class="enter-btn" onclick="showLoveMessage()">Clique aqui, meu amor ❤️</button>
+        </section>
+
+        <!-- Seção da Mensagem de Amor -->
+        <section class="love-message-section" id="loveMessage" style="display: none;">
+            <div class="message-container">
+                <h2 class="love-title">Minha Declaração de Amor</h2>
+                <div class="love-text">
+                    <p>Meu amor, você é a pessoa mais especial da minha vida.</p>
+                    <p>Cada dia ao seu lado é uma nova aventura cheia de alegria e felicidade.</p>
+                    <p>Você ilumina meus dias e torna tudo mais bonito.</p>
+                    <p>Eu te amo mais do que as palavras podem expressar! ❤️</p>
+                </div>
+                <button class="next-btn" onclick="showMemories()">Ver Nossas Memórias 📸</button>
+            </div>
+        </section>
+
+        <!-- Seção de Memórias -->
+        <section class="memories-section" id="memories" style="display: none;">
+            <h2 class="section-title">Nossas Memórias Especiais</h2>
+            <div class="photo-gallery">
+                <div class="photo-card">
+                    <div class="photo-placeholder">
+                        <img src="images/primeira foto.jfif" alt="primeira foto" class="memory-photo">  
+                            <p>Nossa primeira foto juntos</p>
+                    </div>
+                </div>
+                <div class="photo-card">
+                    <div class="photo-placeholder">
+                        <img src="images/encontro" alt="Ultimo encontro" class="memory-photo">
+                        <p>Momentos especiais</p>
+                    </div>
+                
+                </div>
+                <div class="photo-card">
+                    <div class="photo-placeholder">
+                        <img src="images/momentos especiais.jfif" alt="Momentos especiais" class="memory-photo">
+                        <p>Momentos especiais</p>
+                    </div>
+                </div>
+            </div>
+            <button class="next-btn" onclick="showReasons()">Por que eu te amo 💖</button>
+        </section>
+
+        <!-- Seção Razões do Amor -->
+        <section class="reasons-section" id="reasons" style="display: none;">
+            <h2 class="section-title">Por que eu te amo</h2>
+            <div class="reasons-container">
+                <div class="reason-card">
+                    <div class="reason-icon">😍</div>
+                    <h3>Seu sorriso</h3>
+                    <p>Seu sorriso se encaixa com seus olhos, trazendo um brilho inisplicavél para voçê, e toda vez que você sorri eu me emociono, porque te ver feliz é a coisa mais gratificante que pode ocorrer.</p>
+                </div>
+                <div class="reason-card">
+                    <div class="reason-icon">💝</div>
+                    <h3>Seu carinho</h3>
+                    <p>Seu carinho é uma coisa única, sempre que me deito em seu colo eu sinto um conforto que eu só teria se abraçasse Iemanja. Seu corpo é macio, seu carinho tem gosto de mouse, uma coisa suave mas muito gostosa.</p>
+                </div>
+                <div class="reason-card">
+                    <div class="reason-icon">🌟</div>
+                    <h3>Seu olhar</h3>
+                    <p>Seus olhos são penetrantes, toda vez que olho me sinto preso na inmensidão de beleza que ele carrga, por mim eu tatuava seu olhar em meu corpo, para que nunca mais eu me esqueça do quão lindo ele é.</p>
+                </div>
+                <div class="reason-card">
+                    <div class="reason-icon">💫</div>
+                    <h3>Nossos momentos</h3>
+                    <p>Cada momento ao seu lado é mágico e inesquecível, toda vez que fico longe eu percebo a falta que você faz ao meu lado. Eu toda vez agradeço por ter você presente em minha vida, e não sei o que seria de mim se você nunca tivesse passado em minha vida.</p>
+                </div>
+            </div>
+            <button class="next-btn" onclick="showFinalMessage()">Mensagem Final 💌</button>
+        </section>
+
+        <!-- Seção Final -->
+        <section class="final-section" id="finalMessage" style="display: none;">
+            <div class="final-container">
+                <h2 class="final-title">Meu Amor Eterno</h2>
+                <div class="final-message">
+                    <p>Quero que você saiba que meu amor por você é infinito.</p>
+                    <p>Você é minha melhor amiga, minha companheira, meu amor.</p>
+                    <p>Obrigado por fazer parte da minha vida e por me fazer tão feliz.</p>
+                    <p class="signature">Com todo meu amor, sempre seu ❤️</p>
+                </div>
+                <div class="floating-hearts">
+                    <span class="floating-heart">💖</span>
+                    <span class="floating-heart">💕</span>
+                    <span class="floating-heart">❤️</span>
+                    <span class="floating-heart">💗</span>
+                    <span class="floating-heart">💝</span>
+                </div>
+                <button class="restart-btn" onclick="restartJourney()">Começar Novamente 🔄</button>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
